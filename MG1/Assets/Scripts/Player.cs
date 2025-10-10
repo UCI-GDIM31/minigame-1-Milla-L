@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private CharacterController _ccontroller;
     [SerializeField] private Transform _start;
-    //[SerializeField] private TMP_Text _text;
+    [SerializeField] private TMP_Text _text;
 
     private int _points = 0;
     private List<GameObject> _earnedCoins = new List<GameObject>();
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
             _earnedCoins.Clear();
         }
 
-        //_text.text = "Points: " + _points;
+        _text.text = "Points: " + _points;
     }
 
     private void LateUpdate()
