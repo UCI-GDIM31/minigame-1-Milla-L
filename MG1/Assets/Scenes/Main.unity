@@ -55998,7 +55998,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player
   _ccontroller: {fileID: 7227302378425289659}
   _start: {fileID: 646650482}
-  _text: {fileID: 0}
 --- !u!1 &8273382351716084471
 GameObject:
   m_ObjectHideFlags: 0
